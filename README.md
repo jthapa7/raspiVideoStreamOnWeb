@@ -27,16 +27,16 @@ This is a simple web application that streams live video from a webcam using Fla
 
    Use pip to install the necessary Python libraries.
 
- ```pip3 install flask opencv-python ```
+    ```pip3 install flask opencv-python ```
  
 3. **Run the Flask Python:**
 
-```python3 main.py```
+   ```python3 main.py```
 
 4. **Access the Video Stream:**
 
    Open a web browser and go to:
 
-```http://<raspberry_pi_ip>:5000```
+   ```http://<raspberry_pi_ip>:5000 #For this example http://0.0.0.0:5000```
 
 
