@@ -13,26 +13,29 @@ This is a simple web application that streams live video from a webcam using Fla
 - **Flask** and **OpenCV** Python libraries
 - **Webcam** connected to your Raspberry Pi or other hardware (e.g., USB camera, Raspberry Pi camera module)
 
-## Installation
+
+## Usage
 
 1. **Clone the Repository:**
 
    ```
    git clone https://github.com/yourusername/VideoWebApp.git
    cd VideoWebApp
-    ```
-2. **Run the Flask Python:**
+
+2. #**Install Required Package:**
+
+Use pip to install the necessary Python libraries.
+
+ ```pip3 install flask opencv-python ``````
+ 
+3. **Run the Flask Python:**
 
 ```python3 main.py```
 
-3. **Access the Video Stream:**
+4. **Access the Video Stream:**
 
 Open a web browser and go to:
 
 ```http://<raspberry_pi_ip>:5000```
 
-# Install Required Packages:
 
-Use pip to install the necessary Python libraries.
-
- ```pip3 install flask opencv-python ```
