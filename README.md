@@ -21,12 +21,13 @@ This is a simple web application that streams live video from a webcam using Fla
    ```
    git clone https://github.com/yourusername/VideoWebApp.git
    cd VideoWebApp
+   ```
 
-2. #**Install Required Package:**
+2. **Install Required Package:**
 
-Use pip to install the necessary Python libraries.
+   Use pip to install the necessary Python libraries.
 
- ```pip3 install flask opencv-python ``````
+ ```pip3 install flask opencv-python ```
  
 3. **Run the Flask Python:**
 
@@ -34,7 +35,7 @@ Use pip to install the necessary Python libraries.
 
 4. **Access the Video Stream:**
 
-Open a web browser and go to:
+   Open a web browser and go to:
 
 ```http://<raspberry_pi_ip>:5000```
 
